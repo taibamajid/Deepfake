@@ -118,7 +118,11 @@ The proposed Custom-CNN was trained and tested on for-norm, for-2second, for-rer
 ## BENCHMARKING
 When the experimental conditions (dataset, models) used in the subsequent study are the same as those used in the literature, it is much simpler to compare the results. To the best of our knowledge, the three sub-datasets of the FoR dataset have not been the subject of any previous research using CNN. [4] trained Custom-CNN on for-original dataset and achieved an accuracy of 88%. [5] and [6] used various machine learning algorithms trained on three subsets of FoR datasets, both the studies used hand-crafted features. [6] also implemented VGG16 and LSTM but were trained on for-original version and achieved an accuracy of 93% and 91% respectively. In [5], the highest average accuracy 93% was achieved by XGB on three subsets of FoR dataset, therefore, we also calculated the average accuracy of the presented model for the comparative analysis of the two works. 
 
-##########Table5
+ <br>
+<p aling="center">
+<img src="./Images/Capture4.PNG" alt="Capture4"
+  </p>
+  </br>
 
 
 
