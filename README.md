@@ -1,5 +1,5 @@
 # DeepFake
-This work has been developed to fulfil the requisites of the course titled "........" 
+This work has been developed to fulfil the requisites of the course titled "Neural Networks" under the guidance of Professor Danilo Comminiello and Professor Simone Scardapane
 
 
 ## <b>TITLE:</b> <b>"Deepfake........"</b>
