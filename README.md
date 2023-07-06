@@ -114,7 +114,7 @@ Remember to update the paths to the dataset and other necessary files, and adjus
 ## EXPERIMENTAL RESULTS AND DISCUSSION
 In this study, we have executed numerous experiments using the custom Convolutional Neural Network (Custom-CNN) trained on the sub-datasets of the FoR deepfake dataset: 'for-norm', 'for-2-second', and 'for-rerecording'. Detailed accounts of the dataset, the experimental setup, and the resulting outcomes are presented in the subsequent subsections.
 
-<b>Fake or Real Dataset (FoR)</b>
+### Fake or Real Dataset (FoR)
 The FoR dataset is an audio deepfake dataset that comprises over 111,000 genuine utterances gathered from human speech recordings of all genders, and more than 87,000 deceptive utterances produced by seven different Text-to-Speech (TTS) systems. This dataset is subdivided into four different versions based on pre-processing: 'for-original', 'for-norm', 'for-2-second', and 'for-rerecording'.
 In our research, we used three versions of the FoR dataset: 'for-norm', 'for-2-second', and 'for-rerecording'. These datasets were already split into training, validation, and testing sets, and they were used as such during the evaluation phase. The total count of samples in the dataset and the number of samples used for the experimental analysis are listed in Table 1.                  
 
@@ -137,7 +137,7 @@ Additionally, we combined these three sub-datasets and named it as for-combined,
 
 
 
-<b>Experimental Setup</b>
+### Experimental Setup
 The specifics of the hardware setup can be found in Table 3. All experiments involving the 'for-norm', 'for-2-second', 'for-rerecording', and 'for-combined' datasets were conducted using Jupyter Notebook. These datasets were used to train Custom-CNN. Mel-spectrograms, amounting to over 90,000, were utilized as input for all the models. For the model, a batch size of 32 was maintained.
 The data in the datasets had already been segmented into training, testing, and validation sets, and we adhered to these same proportions for the evaluation process. The models were trained over two different epochs durations, namely 20 and 50. We assessed the performance of the models based on their accuracy during training, validation, and testing phases. To facilitate comparison between the models, we have tabulated the results for each classification algorithm.  
 
@@ -149,7 +149,7 @@ The data in the datasets had already been segmented into training, testing, and 
   </br>
 
 
-<b>Experiments using Proposed Custom-CNN</b>
+### Experiments using Proposed Custom-CNN
 The proposed Custom-CNN was trained and tested on for-norm, for-2second, for-rerecording, and for-combined. Table 4 shows the testing accuracy of all the datasets considered. With training epochs of 50, Custom-CNN achieved a highest of 97.23% on for-combined dataset and 96.32% on for-norm dataset. For combined achieved 95.80% of accuracy highest among all datasets when trained with 20 epochs. For-rerec got less accuracy compared to other datasets with 91.86% and 93.4% with 20 and 50 epochs respectively. The training accuracy for each dataset was in between 97% to 100%. 
 
  <br>
