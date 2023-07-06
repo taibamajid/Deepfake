@@ -5,7 +5,7 @@
 ## <b>TITLE:</b> <b>" Audio Deepfake Detection using Custom Convolutional Neural Networks and Mel-spectrograms"</b>
 
 ## Authors
-- Taiba Majid
+- Taiba Majid (2096299)
 
 ## Table of Contents
 - [Introduction](#introduction)
