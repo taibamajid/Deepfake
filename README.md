@@ -63,7 +63,7 @@ The mel-spectrograms, derived from the three sub-datasets of the FoR dataset, se
 
 
 
-## Instructions to Install
+## INSTRUCTIONS TO INSTALL
 
 ### ENVIRONMENT AND DEPENDENCIES
 This project requires Python 3.9 and the following Python libraries:
