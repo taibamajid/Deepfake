@@ -11,7 +11,7 @@
 - [Introduction](#introduction)
 - [Related Works](#related-works)
 - [Research Methodology](#research-methodology)
-- [Instructions to Install(#instructions-to-install))
+- [Instructions to Install](#instructions-to-install))
 - [Experimental Results and Discussion](#experimental-results-and-discussion)
 - [Benchmarking](#benchmarking)
 - [References](#references)
