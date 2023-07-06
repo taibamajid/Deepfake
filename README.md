@@ -75,16 +75,21 @@ The FoR dataset is an audio deepfake dataset that comprises over 111,000 genuine
 In our research, we used three versions of the FoR dataset: 'for-norm', 'for-2-second', and 'for-rerecording'. These datasets were already split into training, validation, and testing sets, and they were used as such during the evaluation phase. The total count of samples in the dataset and the number of samples used for the experimental analysis are listed in Table 1.                  
 
 
-
-###########Table1
-
+ <br>
+<p aling="center">
+<img src="./Images/Capture.PNG" alt="Capture"
+  </p>
+  </br>
 
 
 Additionally, we combined these three sub-datasets and named it as for-combined, for extensive experimental analysis. We also used data augmentation for the built for-combined dataset. Table 2 shows the number of samples in the given dataset. 
 
 
-###############Table2
-
+<br>
+<p aling="center">
+<img src="./Images/Capture1.PNG" alt="Capture1"
+  </p>
+  </br>
 
 
 
@@ -93,16 +98,24 @@ The specifics of the hardware setup can be found in Table 3. All experiments inv
 The data in the datasets had already been segmented into training, testing, and validation sets, and we adhered to these same proportions for the evaluation process. The models were trained over two different epochs durations, namely 20 and 50. We assessed the performance of the models based on their accuracy during training, validation, and testing phases. To facilitate comparison between the models, we have tabulated the results for each classification algorithm.  
 
 
-###########Table3
+ <br>
+<p aling="center">
+<img src="./Images/Capture2.PNG" alt="Capture2"
+  </p>
+  </br>
 
 
 <b>Experiments using Proposed Custom-CNN</b>
 The proposed Custom-CNN was trained and tested on for-norm, for-2second, for-rerecording, and for-combined. Table 4 shows the testing accuracy of all the datasets considered. With training epochs of 50, Custom-CNN achieved a highest of 97.23% on for-combined dataset and 96.32% on for-norm dataset. For combined achieved 95.80% of accuracy highest among all datasets when trained with 20 epochs. For-rerec got less accuracy compared to other datasets with 91.86% and 93.4% with 20 and 50 epochs respectively. The training accuracy for each dataset was in between 97% to 100%. 
 
-#######Table4
+ <br>
+<p aling="center">
+<img src="./Images/Capture3.PNG" alt="Capture3"
+  </p>
+  </br>
 
 
-##BENCHMARKING
+## BENCHMARKING
 When the experimental conditions (dataset, models) used in the subsequent study are the same as those used in the literature, it is much simpler to compare the results. To the best of our knowledge, the three sub-datasets of the FoR dataset have not been the subject of any previous research using CNN. [4] trained Custom-CNN on for-original dataset and achieved an accuracy of 88%. [5] and [6] used various machine learning algorithms trained on three subsets of FoR datasets, both the studies used hand-crafted features. [6] also implemented VGG16 and LSTM but were trained on for-original version and achieved an accuracy of 93% and 91% respectively. In [5], the highest average accuracy 93% was achieved by XGB on three subsets of FoR dataset, therefore, we also calculated the average accuracy of the presented model for the comparative analysis of the two works. 
 
 ##########Table5
