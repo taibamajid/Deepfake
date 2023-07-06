@@ -35,7 +35,7 @@ A mel-spectrogram is a visual depiction of an audio signal that conveys both tim
 
 <br>
 <p aling="center">
-<img src="./images/Blank diagram (3).png" alt="Blank diagram (3)"
+<img src="./Images/Blank diagram (3).png" alt="Blank diagram (3)"
   </p>
   </br>
 
