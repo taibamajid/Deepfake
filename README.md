@@ -8,13 +8,13 @@
 - Taiba Majid
 
 ## Table of Contents
-- [Introduction]
-- [Related Works]
-- [Research Methodology]
-- [Usage(Instructions to Install)]
-- [Experimental Results and Discussion]
-- [Benchmarking]
-- [References]
+- [Introduction](#introduction)
+- [Related Works](#related-works)
+- [Research Methodology](#research-methodology)
+- [Instructions to Install(#instructions-to-install))
+- [Experimental Results and Discussion](#experimental-results-and-discussion)
+- [Benchmarking](#benchmarking)
+- [References](#references)
 
 ## INTRODUCTION
 Despite the growing concern over deepfake videos, the problem of deepfake audio has largely been overlooked. Deepfake audio employs intricate deep learning algorithms to mimic, edit, or generate a targeted speaker's voice, making it appear as if they have uttered words they have never actually said. The sophistication of voice manipulation has evolved dramatically in recent years, posing not only a risk to automated speaker verification systems, but also threatening the security of voice-activated devices in the context of the Internet of Things (IoT) [1]. Two prevalent techniques used for generating deceptive voices are Text-to-Speech synthesis (TTS) and Voice Conversion (VC) [2]. TTS can replicate a highly convincing imitation of any speaker's voice based on the text input provided. On the other hand, VC transforms the source speaker's audio waveform to closely mimic the speech patterns of the target speaker. Despite being entirely computer-generated, the voices produced using TTS and VC synthesis are virtually indistinguishable from genuine human speech, creating a significant challenge to the authenticity of human communication.
@@ -63,7 +63,7 @@ The mel-spectrograms, derived from the three sub-datasets of the FoR dataset, se
 
 
 
-## USGAE (Instructions to Install)
+## Instructions to Install
 
 ### ENVIRONMENT AND DEPENDENCIES
 This project requires Python 3.9 and the following Python libraries:
