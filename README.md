@@ -35,8 +35,12 @@ A mel-spectrogram is a visual depiction of an audio signal that conveys both tim
 
 <br>
 <p aling="center">
-<img src="./images/
+<img src="./images/Blank diagram (3).png" alt="Blank diagram (3)"
+  </p>
+  </br>
 
+
+  
 <b>Custom – Convolutional Neural Network (Custom-CNN):</b>
 Convolutional Neural Networks (CNNs) are highly favored in the field of computer vision due to their scalability and reliability. In this study, we introduce a bespoke CNN, referred to as Custom-CNN, which comprises four convolution layers, four pooling layers, a flatten layer, two fully connected layers, and a dropout layer.
 The mel-spectrograms, derived from the three sub-datasets of the FoR dataset, serve as the input to the first layer of our Custom-CNN. The first convolution layer employs a kernel size of (3x3) with 32 filters, while the second layer incorporate 64 filters with a kernel size of (3x3), and the third final convolution layer has 128 filters with a kernel size of (3x3). Every convolution layer is succeeded by a ReLU activation unit and a pooling layer of size (2x2) with identical padding and a stride of 2.The output from the final pooling layer is relayed to the flatten layer where the 3D volume is transformed into a 1D vector. The flatten layer is succeeded by two fully connected layers, containing 512 neurons. To mitigate the risk of overfitting, a dropout layer is incorporated after the first fully connected layer, with a dropout rate of 50%. The concluding fully connected layer integrates a sigmoid function, responsible for the classification task of discerning genuine and fake audios.
