@@ -46,7 +46,7 @@ A mel-spectrogram is a visual depiction of an audio signal that conveys both tim
   </p>
   </br>
 
-
+<b> Mel-spectrograms Real and Fake Audios </b>
   
 <b>Custom – Convolutional Neural Network (Custom-CNN):</b>
 Convolutional Neural Networks (CNNs) are highly favored in the field of computer vision due to their scalability and reliability. In this study, we introduce a bespoke CNN, referred to as Custom-CNN, which comprises four convolution layers, four pooling layers, a flatten layer, two fully connected layers, and a dropout layer.
