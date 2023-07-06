@@ -30,7 +30,7 @@ Camacho et. al., proposed a dual-stage model to detect fake speech [4]. The firs
 A comprehensive experimental assessment is carried out on three distinct sub-datasets from the FoR deepfake dataset: 'for-norm', 'for-2-sec', and 'for-rerec', utilizing the suggested custom Convolutional Neural Network (CNN). The proposed approach focuses on distinguishing between genuine and deceptive audios. 
 To begin, the audio files in the datasets are subject to pre-processing and a sequence of transformations. The processed audio files are then transmuted into mel-spectrograms, enabling an image-centric method for the necessary classification task. Finally, these produced mel-spectrograms serve as the basis for training and testing the introduced model, the custom CNN
 
-<b>Mel-spectrogram:</b>
+### Mel-spectrogram
 A mel-spectrogram is a visual depiction of an audio signal that conveys both time and frequency data, thereby facilitating analysis of features in both the time and frequency domains. It applies the mel scale to imitate the nonlinear frequency perception inherent to the human auditory system, which operates in a logarithmic manner and captures the most perceptually significant elements within audio content. Creating a mel-spectrogram involves partitioning the audio signals into overlapping frames via a windowing function. From there, the Short-Term Frequency Transform (STFT) is computed to derive the spectrograms. Following this, mel-scale filter banks are utilized to transition the frequency axis to the mel scale. Finally, the logarithm of the filter bank energies is calculated to yield the desired mel-spectrogram.
 
 <br>
@@ -48,7 +48,7 @@ A mel-spectrogram is a visual depiction of an audio signal that conveys both tim
 
 <p align="center"><b>Mel-spectrograms Real and Fake Audios </b></p>p>
   
-<b>Custom – Convolutional Neural Network (Custom-CNN):</b>
+### Custom – Convolutional Neural Network (Custom-CNN)
 Convolutional Neural Networks (CNNs) are highly favored in the field of computer vision due to their scalability and reliability. In this study, we introduce a bespoke CNN, referred to as Custom-CNN, which comprises four convolution layers, four pooling layers, a flatten layer, two fully connected layers, and a dropout layer.
 The mel-spectrograms, derived from the three sub-datasets of the FoR dataset, serve as the input to the first layer of our Custom-CNN. The first convolution layer employs a kernel size of (3x3) with 32 filters, while the second layer incorporate 64 filters with a kernel size of (3x3), and the third final convolution layer has 128 filters with a kernel size of (3x3). Every convolution layer is succeeded by a ReLU activation unit and a pooling layer of size (2x2) with identical padding and a stride of 2.The output from the final pooling layer is relayed to the flatten layer where the 3D volume is transformed into a 1D vector. The flatten layer is succeeded by two fully connected layers, containing 512 neurons. To mitigate the risk of overfitting, a dropout layer is incorporated after the first fully connected layer, with a dropout rate of 50%. The concluding fully connected layer integrates a sigmoid function, responsible for the classification task of discerning genuine and fake audios.
 
@@ -65,6 +65,50 @@ The mel-spectrograms, derived from the three sub-datasets of the FoR dataset, se
 
 ## USGAE (Instructions to Install)
 
+### ENVIRONMENT AND DEPENDENCIES
+This project requires Python 3.9 and the following Python libraries:
+
+•	NumPy
+
+•	TensorFlow
+
+•	Keras
+
+•	Matplotlib
+
+•	Librosa
+
+Python can be installed from the official website.
+For installing these libraries, Anaconda, a pre-packaged Python distribution that contains most of the necessary libraries and software for this project, is recommended. Once you have Python and Anaconda installed, execute the following commands in the terminal to install the necessary libraries:
+
+
+<p aling="center">
+<b>
+  conda install tensorflow
+  
+  conda install keras
+  
+  conda install librosa
+  
+  conda install matplotlib
+  
+  conda install numpy
+</b>
+</p>
+
+
+### CONFIGURABLE OPTIONS or PARAMETERS
+In this project, you may need to adjust certain parameters depending on your specific use case. These may include parameters related to the spectrogram generation, CNN architecture or training parameters.
+As an example, the parameters of the CNN like number of layers, types of layers (Conv2D, Dense, etc.), layer sizes, activation functions, optimizer, and others can be adjusted to achieve better performance or to suit specific use cases.
+You might also need to adjust parameters for the librosa function calls, which are used to generate spectrograms from audio files. These parameters include hop length, window size, etc.
+
+<b> Note: Ensure to provide suitable paths to your audio files and model files in the required areas of the code.</b>
+
+### EXECUTION INSTRUCTIONS
+Once Python and the necessary libraries are installed, and you have cloned or downloaded this repository on your machine, navigate to its directory from the terminal.
+Execute the Jupyter notebook by typing jupyter notebook in your terminal and hitting Enter. This will open up the Jupyter interface in your web browser, from where you can open and run the project notebook.
+The notebook contains the code as well as step-by-step instructions for the project. You can execute each cell in the notebook by selecting it and pressing Shift+Enter.
+Remember to update the paths to the dataset and other necessary files, and adjust any parameters as needed before running the notebook.
 
 
 ## EXPERIMENTAL RESULTS AND DISCUSSION
@@ -125,6 +169,13 @@ When the experimental conditions (dataset, models) used in the subsequent study 
   </br>
 
 
+## REFERENCES
+1.	Akhtar, Zahid. "Deepfakes Generation and Detection: A Short Survey." Journal of Imaging 9.1 (2023): 18.
+2.	K. M. Malik, H. Malik, and R. Baumann, "Towards vulnerability analysis of voice-driven interfaces and countermeasures for replay attacks," in 2019 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR), 2019, pp. 523-528: IEEE.
+3.	Khanjani, Zahra, Gabrielle Watson, and Vandana P. Janeja. "Audio deepfakes: A survey." Frontiers in Big Data 5 (2022).
+4.	S. Camacho, D. M. Ballesteros, and D. Renza, "Fake speech recognition using deep learning," in Applied Computer Sciences in Engineering: 8th Workshop on Engineering Applications, WEA 2021, Medellín, Colombia, October 6–8, 2021, Proceedings 8, 2021: Springer, pp. 38-48.
+5.	F. Iqbal, A. Abbasi, A. R. Javed, Z. Jalil, and J. Al-Karaki, "Deepfake Audio Detection via Feature Engineering and Machine Learning," 2022
+6.	A. Hamza et al., "Deepfake Audio Detection via MFCC Features Using Machine Learning," IEEE Access, vol. 10, pp. 134018-134028, 2022.
 
 
 
