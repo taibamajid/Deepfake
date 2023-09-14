@@ -10,6 +10,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Research Methodology using Deep Neural Network (DNN)](#research-methodology-using-deep-neural-network-dnn)
+- [Research Methodology using Convolutional Neural Network (CNN)](#research-methodology-using-convolutional-neural-network-cnn) 
 - [Instructions to Install](#instructions-to-install)
 - [Experimental Results and Discussion](#experimental-results-and-discussion)
 - [Benchmarking](#benchmarking)
