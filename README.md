@@ -162,6 +162,16 @@ The data in the datasets had already been segmented into training, testing, and 
   </br>
 
 
+### Experiments using Deep Neural Network (DNN)
+"The proposed DNN was trained and tested on four distinct datasets: for-norm, for-2second, for-rerecording, and for-combined. Table 4 displays the testing accuracy results for all the considered datasets. With a training duration of 50 epochs, DNN achieved its highest accuracy of 93.10% on the for-combined dataset and 89.7% on the for-norm dataset. The for-combined dataset recorded the highest accuracy of 89.80% when trained with 20 epochs. On the other hand, the for-rerecording dataset exhibited lower accuracy, reaching 73.26% with 20 epochs and 79.53% with 50 epochs. The training accuracy for each dataset fell within the range of 85% to 97%."
+
+ <br>
+<p aling="center">
+<img src="./Images/Capture3.PNG" alt="Capture3"
+  </p>
+  </br>
+
+
 ### Experiments using Proposed Custom-CNN
 The proposed Custom-CNN was trained and tested on for-norm, for-2second, for-rerecording, and for-combined. Table 4 shows the testing accuracy of all the datasets considered. With training epochs of 50, Custom-CNN achieved a highest of 97.23% on for-combined dataset and 96.32% on for-norm dataset. For combined achieved 95.80% of accuracy highest among all datasets when trained with 20 epochs. For-rerec got less accuracy compared to other datasets with 91.86% and 93.4% with 20 and 50 epochs respectively. The training accuracy for each dataset was in between 97% to 100%. 
 
