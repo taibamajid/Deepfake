@@ -31,7 +31,13 @@ In the realm of audio deepfake detection, a robust methodology leverages Deep Ne
 ### DEEP NEURAL NETWORK (DNN)
 In this study, we present a dedicated Deep Neural Network (DNN) architecture for audio deepfake detection. Our DNN model consists of three fully connected layers, including an input layer, two hidden layers, and an output layer. The input to the DNN comprises audio features extracted from the mel-spectrograms of the three sub-datasets of the FoR dataset. The first hidden layer contains 128 neurons, followed by a second hidden layer with 64 neurons. Both hidden layers use the rectified linear unit (ReLU) activation function to introduce non-linearity into the network. The output layer, designed for binary classification to distinguish genuine from fake audios, employs a sigmoid activation function. The DNN model is trained on the preprocessed dataset, with hyperparameters optimized using a validation set. To prevent overfitting, dropout regularization with a rate of 50% is applied between the two hidden layers. This DNN architecture is tailored for audio deepfake detection, leveraging the extracted features to make accurate classification decisions.
 
+<br>
+<p aling="center">
+<img src="./Images/DNN.png" alt="DNN"
+  </p>
+  </br>
 
+<p align="center"><b>Deep Neural Network </b></p>
 
 ## RESEARCH METHODOLOGY USING CONVOLUTIONAL NEURAL NETWORK (CNN)
 A comprehensive experimental assessment is carried out on three distinct sub-datasets from the FoR deepfake dataset: 'for-norm', 'for-2-sec', and 'for-rerec', utilizing the suggested custom Convolutional Neural Network (CNN). The proposed approach focuses on distinguishing between genuine and deceptive audios. 
