@@ -2,7 +2,7 @@
 <b> This work has been developed to fulfil the requisites of the course titled "Neural Networks" under the guidance of Professor Danilo Comminiello and Professor Simone Scardapane. </b>
 
 
-## <b>TITLE:</b> <b>" Audio Deepfake Detection using Custom Convolutional Neural Networks and Mel-spectrograms"</b>
+## <b>TITLE:</b> <b>" Audio Deepfake Detection using Deep Neural Network and Custom Convolutional Neural Networks "</b>
 
 ## Authors
 - Taiba Majid (2096299)
