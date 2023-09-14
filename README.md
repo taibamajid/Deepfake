@@ -37,7 +37,7 @@ In this study, we present a dedicated Deep Neural Network (DNN) architecture for
   </p>
   </br>
 
-<p align="center"><b>Deep Neural Network </b></p>
+<p align="center"><b> Deep Neural Network </b></p>
 
 ## RESEARCH METHODOLOGY USING CONVOLUTIONAL NEURAL NETWORK (CNN)
 A comprehensive experimental assessment is carried out on three distinct sub-datasets from the FoR deepfake dataset: 'for-norm', 'for-2-sec', and 'for-rerec', utilizing the suggested custom Convolutional Neural Network (CNN). The proposed approach focuses on distinguishing between genuine and deceptive audios. 
