@@ -9,7 +9,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Research Methodology](#research-methodology)
+- [Research Methodology using Deep Neural Network](#research-methodology-using-deep-neural-network)
 - [Instructions to Install](#instructions-to-install)
 - [Experimental Results and Discussion](#experimental-results-and-discussion)
 - [Benchmarking](#benchmarking)
