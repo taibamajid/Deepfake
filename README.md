@@ -167,7 +167,7 @@ The data in the datasets had already been segmented into training, testing, and 
 
  <br>
 <p aling="center">
-<img src="./Images/Capture3.PNG" alt="Capture3"
+<img src="./Images/dnnresult.png" alt="dnnresult"
   </p>
   </br>
 
